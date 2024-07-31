@@ -1,0 +1,130 @@
+.border-1 {
+  border: 2px solid red;
+}
+.border-2 {
+  border: 2px solid rgb(196, 2, 231);
+}
+.border-3 {
+  border: 2px solid rgb(25, 236, 2);
+}
+.border-4 {
+  border: 2px solid rgb(6, 78, 235);
+}
+.border-5 {
+  border: 2px solid rgb(239, 240, 243);
+}
+/* src/App.css */
+.button-gradient {
+  background: linear-gradient(to bottom, #4c38c2 100%, #9c93d4 100%);
+  border: 1px solid #cecece;
+  border-radius: 5px;
+}
+.input-css {
+  outline: none;
+  background-color: #ebebeb;
+  padding: 0.7rem 0.5rem;
+  width: 100%;
+  border-radius: 8px;
+}
+.input-css:focus {
+  border: 1px solid #999999;
+}
+.boxBorder {
+  border: 1px solid #dedede;
+  padding: 14px;
+  border-radius: 8px;
+}
+/* input {
+  border: 1px solid #dddd;
+} */
+
+.modal-bg {
+  background-color: rgb(0, 0, 0, 0.6);
+}
+.title-css {
+  border-bottom: 1px solid #ddd;
+  outline: none;
+  height: 50px;
+}
+.deep_purple_600_indigo_200_border {
+  border: 1px solid;
+  border-image-source: linear-gradient(360deg, #4b36cc 0%, #9c93d4 107.69%);
+  background: linear-gradient(180deg, #4c38c2 0%, #2f2188 100%);
+  padding: 0.6rem;
+  border-radius: 8px;
+  opacity: 0px;
+}
+.sing-up-color {
+  border: 1px solid;
+  border-image-source: linear-gradient(360deg, #4b36cc 0%, #9c93d4 107.69%);
+  background: linear-gradient(180deg, #4c38c2 0%, #2f2188 100%),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0px;
+  border: 1px solid;
+  border-image-source: linear-gradient(360deg, #4b36cc 0%, #9c93d4 107.69%);
+}
+.add-button-css {
+  background: linear-gradient(180deg, #3a3a3a 0%, #202020 100%);
+  border-radius: 8px;
+}
+/* Ensure to include these styles in your main CSS file */
+.select-container {
+  position: relative;
+  width: 50%;
+}
+
+.select-container::after {
+  content: "▼";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #999;
+}
+
+.select-css {
+  appearance: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.select-css:hover {
+  border-color: #888;
+}
+
+.select-css:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.normal-input-css {
+  border: 1px solid #ddd;
+  width: 100%;
+  outline: none;
+  padding: 0.6rem;
+  border-radius: 5px;
+}
+.home-border {
+  border: 1px solid #dddddd;
+}
+
+/* Add the following CSS to your stylesheet */
+/* ===========boder side */
+.side-border {
+  border-right: 1px solid #ddd;
+}
+.log-out-background {
+  background: linear-gradient(180deg, #f7f7f7 0%, #f0f0f0 100%);
+  border-radius: 4px;
+}
